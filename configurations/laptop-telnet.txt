@@ -1,0 +1,12 @@
+telent 192.168.1.100
+password CSL1234
+enable
+password CCNA123
+configure terminal
+username csl
+username csl privilege ?
+username csl privilege 15 secret abc123
+line vty 0 4
+no password
+login local
+
