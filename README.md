@@ -1,10 +1,13 @@
+# Cisco Router Telnet Configuration Lab
 
-# Cisco Packet Tracer Lab
+## Devices Used
+- Router
+- Laptop
 
-## Topics
+## Features
 - Console Access
-- User Password
-- Telnet Configuration
+- Password Configuration
+- Telnet Access
 
 ## Software
 - Cisco Packet Tracer
