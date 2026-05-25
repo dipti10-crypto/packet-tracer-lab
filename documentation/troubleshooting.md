@@ -1,9 +1,5 @@
 # Troubleshooting
+ping 192.168.1.100
 
-## Problem
-Interface down down
-
-## Solution
-- Check cable
-- Use no shutdown
-- Verify both sides are connected
+# Output
+Success
