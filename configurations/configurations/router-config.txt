@@ -1,0 +1,7 @@
+configure terminal
+line vty 0 4
+login
+password CSL1234
+transport input all
+exit
+write
