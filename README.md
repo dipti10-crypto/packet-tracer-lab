@@ -10,7 +10,6 @@
 - topology/
 - packet-tracer-files/
 - configurations/
-- screenshots/
 - documentation/
 
 ## Software
