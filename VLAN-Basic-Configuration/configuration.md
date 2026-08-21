@@ -1,5 +1,5 @@
 ## Example Scenario
-![VLAN Basic Configuration](VLAN-Basic-Configuration/vlan-topology.png)
+![VLAN Basic Configuration](./vlan%20topology.png)
 | PC  | Port  | VLAN    | IP            |
 | --- | ----- | ------- | ------------- |
 | PC1 | Fa0/1 | VLAN 10 | 192.168.10.10 |
@@ -47,4 +47,4 @@ For VLAN 20
 - ping 192.168.20.11
 
 ## Output
-![VLAN Basic Configuration](VLAN-Basic-Configuration/ping.png)
+![Ping Test](./ping%20test.png)
