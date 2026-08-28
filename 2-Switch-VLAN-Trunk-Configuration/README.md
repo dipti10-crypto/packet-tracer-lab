@@ -42,6 +42,7 @@ sw0 →
 - Switch(config)# interface fa0/24
 - Switch(config-if)# switchport mode trunk
 - Switch(config-if)# exit
+  
 sw1 →
 - Switch(config)# interface fa0/24
 - Switch(config-if)# switchport mode trunk
