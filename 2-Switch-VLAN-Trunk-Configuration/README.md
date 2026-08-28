@@ -1,5 +1,5 @@
 # 2-Switch-VLAN-Trunk-Configuration
-
+<img src="2-switch-vlan-trunk.png" width="500">
 ## Step 1: Create VLAN on Switch 0
 - Switch> enable
 - Switch# configure terminal
@@ -70,12 +70,24 @@ PC3
 Test 1: PC0 → PC2
 - ping 192.168.10.20
 
+<img src="test1.png" width="500">
+
 Test 2: PC1 → PC3
 - ping 192.168.20.20
+
+<img src="test2.png" width="500">
 
 Test 3: PC0 → PC3
 - ping 192.168.20.20
 
+<img src="test3.png" width="500">
+
 # Step 8: Check Trunk
 - show interfaces trunk
 - show vlan brief
+
+<img src="show-trunk.png" width="500">
+
+<img src="vlan-brief.png" width="500">
+
+
