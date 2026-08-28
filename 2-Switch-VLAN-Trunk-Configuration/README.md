@@ -67,13 +67,13 @@ PC3
 - Subnet Mask: 255.255.255.0
 
 # Step 7: Ping Test
-Test 1: PC0 → PC3
+Test 1: PC0 → PC2
 - ping 192.168.10.20
 
-Test 2: PC1 → PC2
+Test 2: PC1 → PC3
 - ping 192.168.20.20
 
-Test 3: PC0 → PC4
+Test 3: PC0 → PC3
 - ping 192.168.20.20
 
 # Step 8: Check Trunk
