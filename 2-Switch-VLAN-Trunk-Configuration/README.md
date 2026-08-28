@@ -47,3 +47,31 @@ sw1 →
 - Switch(config)# interface fa0/24
 - Switch(config-if)# switchport mode trunk
 - Switch(config-if)# exit
+
+
+# Step 6: PC IP Configuration
+PC0
+- IP Address: 192.168.10.10
+- Subnet Mask: 255.255.255.0
+
+PC2
+- IP Address: 192.168.10.20
+- Subnet Mask: 255.255.255.0
+
+PC1
+- IP Address: 192.168.20.10
+- Subnet Mask: 255.255.255.0
+
+PC3
+- IP Address: 192.168.20.20
+- Subnet Mask: 255.255.255.0
+
+# Step 7: Ping Test
+Test 1: PC0 → PC3
+- ping 192.168.10.20
+
+Test 2: PC1 → PC2
+- ping 192.168.20.20
+
+Test 3: PC0 → PC4
+- ping 192.168.20.20
