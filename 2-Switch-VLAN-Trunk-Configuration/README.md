@@ -75,3 +75,7 @@ Test 2: PC1 → PC2
 
 Test 3: PC0 → PC4
 - ping 192.168.20.20
+
+# Step 8: Check Trunk
+- show interfaces trunk
+- show vlan brief
