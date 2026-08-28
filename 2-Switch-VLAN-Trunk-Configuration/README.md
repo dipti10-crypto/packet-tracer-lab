@@ -36,4 +36,13 @@ PC1 → VLAN 20
 - Switch(config-if)# switchport mode access
 - Switch(config-if)# switchport access vlan 20
 - Switch(config-if)# exit
-- 
+
+# Step 5: Configure Trunk
+sw0 →
+- Switch(config)# interface fa0/24
+- Switch(config-if)# switchport mode trunk
+- Switch(config-if)# exit
+sw1 →
+- Switch(config)# interface fa0/24
+- Switch(config-if)# switchport mode trunk
+- Switch(config-if)# exit
