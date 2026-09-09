@@ -46,3 +46,35 @@
 - Router(config-if)#no shutdown
 - Router(config-if)#exit
 - Router(config)#end
+
+# SW1 Configuration
+- Switch>enable
+- Switch#configure terminal
+## Create VLANs
+- Switch(config)#vlan 10
+- Switch(config-vlan)#name VLAN10
+- Switch(config-vlan)#exit
+- Switch(config)#vlan 20
+- Switch(config-vlan)#name VLAN20
+- Switch(config-vlan)#exit
+## Access Ports
+- Switch(config)#interface fa0/2
+- Switch(config-if)#switchport mode access
+- Switch(config-if)#switchport access vlan 20
+- Switch(config-if)#exit
+## Trunk Port to Router
+- Switch(config)#interface fa0/3
+- Switch(config-if)#switchport mode trunk
+- Switch(config-if)#no shutdown
+- Switch(config-if)#exit
+- Switch(config)#end
+
+## PC IP Configuration
+### PCO(VLAN 10)
+- IP:192.168.10.10
+- Mask:255.255.255.0
+- Gateway:192.168.10.1
+### PC1(VLAN 20)
+- IP:192.168.20.20
+- Mask:255.255.255.0
+- Gateway:192.168.20.1
