@@ -1,5 +1,5 @@
 # Inter-VLAN Routing using Router-on-a-Stick
-
+<img src="Inter-VLAN-Routing-using-Router-on-a-Stick.png" width="500">
 # SW0 Configuration
 - Switch>enable
 - Switch#configure terminal
